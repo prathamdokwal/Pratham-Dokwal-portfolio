@@ -21,7 +21,8 @@ export const personalInfo: PersonalInfo = {
   location: { city: "Hyderabad, Telangana", country: "India" },
   email: "dokwalpratham@gmail.com",
   phone: "+91 8329277453",
-  linkedin: "https://www.linkedin.com/in/pratham-dokwal-55291136b/",
+  linkedin: "https://www.linkedin.com/in/pratham-dokwal/",
+  github: "https://github.com/prathamdokwal",
   avatar: headshot,
   bio: "BCA student skilled in web development and AI-powered applications, focused on building practical, user-oriented software solutions.",
   skills:
@@ -99,6 +100,11 @@ export const socialLinks: SocialLink[] = [
   {
     platform: "LinkedIn",
     username: "Pratham Dokwal",
-    url: "https://www.linkedin.com/in/pratham-dokwal-55291136b/",
+    url: "https://www.linkedin.com/in/pratham-dokwal/",
+  },
+  {
+    platform: "GitHub",
+    username: "prathamdokwal",
+    url: "https://github.com/prathamdokwal",
   },
 ];

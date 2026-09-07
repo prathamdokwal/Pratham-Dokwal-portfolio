@@ -47,6 +47,15 @@ export default function ContactSection() {
           LinkedIn
         </a>
 
+        <a
+          href={personalInfo.github}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-body hover:text-[var(--color-primary)] transition-colors block"
+        >
+          GitHub
+        </a>
+
         <p className="text-body">{personalInfo.languages}</p>
       </div>
     </SplitSection>

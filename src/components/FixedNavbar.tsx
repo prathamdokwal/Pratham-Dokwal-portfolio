@@ -1,5 +1,5 @@
 import { personalInfo } from "@/data/portfolio-data";
-import { Mail, Linkedin } from "lucide-react";
+import { Mail, Linkedin, Github } from "lucide-react";
 import { useState, useEffect } from "react";
 
 export default function FixedNavbar() {
@@ -57,6 +57,15 @@ export default function FixedNavbar() {
             aria-label="LinkedIn"
           >
             <Linkedin size={16} />
+          </a>
+          <a
+            href={personalInfo.github}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center w-[44px] h-[44px] hover:text-[var(--color-primary)] transition-colors"
+            aria-label="GitHub"
+          >
+            <Github size={16} />
           </a>
         </div>
       </div>
